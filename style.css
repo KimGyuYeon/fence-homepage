@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+p{
+    margin-bottom: 1em;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#main-header {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo{
+    width: 280px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#main-header .gnb{
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+#main-header .gnb ul li{
+    display: inline-block;
+    margin-left: 2px;
+}
+
+#main-header .gnb ul li span {
+    margin-left: 22px;
+    margin-right: 22px;
+    color: #999;
+}
+
+#contents {
+    width: 1000px;
+    margin: 0 auto;
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    width: 1000px;
+    height: 80px;
+    margin: 100px auto;
+}
+
+#main-footer {
+    background: #ccc;
+    margin: 0 auto;
+    padding: 16px 0;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+#contents > article{
+    width: 100%;
+    overflow: hidden;
+}
+
+#contents > article > img{
+    float: left;
+    width: 50%;
+    width: 500px;
+}
+#contents > article > .text {
+    float: right;
+    width: 450px;
+    text-align: justify;
+}
+
+#contents > article > .banner{
+    width: 450px;
+    height: 186px;
+    background: #0d005e;
+    text-align: center;
+    float: right;
+    padding-top: 24px;
+    line-height: 2em;
+    border: 2px solid black;
+    color: #fff;
+}
+
+#contents > article > .banner > span{
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+}
+
+#contents > article > .banner > p{
+    font-size: 21px;
+}
+
+/*photo*/
+
+#photo #contents article .info-ui {
+    background: #f4f4f4;
+    width: 320px;
+    height: 428px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#photo #contents article .info-ui > img {
+    display: block;
+    width: 320px;
+    height: 288px;
+}
+
+
+
+#photo #contents article .info-ui .info p{
+    margin-bottom: 6px;
+}
+
+#photo #contents article .info-ui .info .tag{
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+}
+
+#photo #contents article .info-ui .info {
+    padding: 20px;
+}
+
+#photo #contents article .info-ui .info .title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#photo #contents article .info-ui .info .date{
+    font-size: 15px;
+    font-weight: 400;
+}
